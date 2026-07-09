@@ -1,5 +1,53 @@
-navbar1{
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* common-button */
+button{
+    background-color: #1D4ED8;
+    color: #ffffff;
+    grid:10px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    
+}
+
+header{
+       background-color: #ffffff; 
+        
+    }
+nav{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        padding: 25px 0;
+        img{
+            height: 40px;
+            width: 120px;
+        }
+        
+
+}
+ul{
     display: flex;
-    list-style: none;
+    justify-content: center;
+    list-style-type: none;
+    list-text-color: #575757;
+    font-family: 'Arimo', sans-serif;
+    gap: 30px;
     align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 16px;
+    font-weight: 500;
+    
 }
