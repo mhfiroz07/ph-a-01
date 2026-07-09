@@ -7,8 +7,7 @@
 button{
     background-color: #1D4ED8;
     color: #ffffff;
-    grid:10px;
-    padding: 15px 45px;
+    padding: 15px 50px;
     border-radius: 10px;
     font-size: 16px;
     font-weight: 500;
@@ -28,18 +27,20 @@ nav{
         max-width: 1200px;
         margin: auto;
         padding: 25px 0;
-        img{
-            height: 40px;
-            width: 120px;
-        }
+}
+
+nav img{
+    height: 40px;
+    width: 120px;
+}
         
 
-}
+
 ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
-    list-text-color: #575757;
+    color: #575757;
     font-family: 'Arimo', sans-serif;
     gap: 30px;
     align-items: center;
